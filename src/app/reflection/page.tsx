@@ -25,48 +25,66 @@ export default function Reflection() {
               My Growth as a Technical Communicator
             </h2>
 
-            {/* TODO: Replace this placeholder text with your actual reflection */}
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                Throughout this Technical Writing course, I have developed significantly as a
-                professional communicator. When I began this course, I [describe your initial
-                skill level and understanding of technical writing].
+                When I began this Technical Writing course, I approached writing the way many computer
+                science students do&mdash;as a necessary but secondary skill to coding. I could write
+                functional code comments and basic documentation, but I hadn&apos;t truly considered
+                the art and strategy behind effective technical communication. This course fundamentally
+                changed that perspective.
               </p>
 
               <p>
-                One of the most transformative aspects of this course was learning [describe
-                a specific skill or concept that changed your approach to writing]. This
-                knowledge has directly impacted how I approach [specific type of communication]
-                in my field of [YOUR FIELD].
+                One of the most transformative realizations was understanding that technical writing
+                isn&apos;t just about conveying information&mdash;it&apos;s about bridging the gap
+                between complex technical concepts and diverse audiences. As a Teaching Assistant for
+                Data Structures & Algorithms, I explain intricate concepts like recursion, tree
+                traversals, and graph algorithms to students with varying backgrounds. This course
+                gave me frameworks to do that more effectively, teaching me to consider my audience&apos;s
+                prior knowledge, anticipate their questions, and structure explanations logically.
               </p>
 
               <p>
-                The artifacts in this portfolio demonstrate my growth in several key areas:
+                The artifacts in this portfolio demonstrate my growth across several dimensions:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
                 <li>
-                  <strong>Professional Formatting:</strong> Through creating memos and reports,
-                  I learned the importance of proper document structure and visual hierarchy.
+                  <strong>Professional Formatting & Structure:</strong> Through creating the memo and
+                  business report, I learned that how information is presented matters as much as the
+                  information itself. Proper headings, white space, and visual hierarchy guide readers
+                  through complex material&mdash;skills directly applicable to writing technical
+                  documentation for software projects.
                 </li>
                 <li>
-                  <strong>Audience Awareness:</strong> Each document required me to consider
-                  who would read it and tailor my language accordingly.
+                  <strong>Audience Awareness:</strong> Each document required me to shift perspective.
+                  The cover letter needed to speak to hiring managers; the proposal needed to convince
+                  stakeholders; the memo needed to inform colleagues efficiently. In my research work
+                  on quantum computing and ML/NLP, I now better understand how to tailor papers and
+                  presentations for academic versus industry audiences.
                 </li>
                 <li>
-                  <strong>Collaborative Writing:</strong> The group proposal taught me how to
-                  integrate multiple voices into a cohesive document.
+                  <strong>Collaborative Writing:</strong> The group proposal was particularly valuable.
+                  In software engineering, documentation is rarely written in isolation. Learning to
+                  merge different writing styles, negotiate content decisions, and maintain a unified
+                  voice mirrors the collaborative documentation practices I&apos;ll encounter in
+                  professional development teams.
                 </li>
                 <li>
-                  <strong>Persuasive Communication:</strong> Writing cover letters and proposals
-                  developed my ability to make compelling arguments.
+                  <strong>Persuasive Communication:</strong> Writing the cover letter and proposal
+                  developed my ability to make compelling arguments&mdash;a skill essential for
+                  pitching project ideas, writing grant proposals for research, or advocating for
+                  technical decisions in code reviews.
                 </li>
               </ul>
 
               <p>
-                As I enter my career in [YOUR FIELD], I recognize that technical communication
-                will be essential for [explain how you will use these skills]. The skills I
-                have developed in this course will help me [specific future applications].
+                As I prepare for a career in computer science&mdash;whether in software engineering,
+                research, or the intersection of both&mdash;I recognize that technical communication
+                will be a differentiating skill. The best code is useless if no one understands how
+                to use it. The most groundbreaking research means nothing if it can&apos;t be
+                communicated clearly. This course has equipped me to be not just a programmer who
+                writes, but a technical communicator who codes.
               </p>
             </div>
           </section>
@@ -82,12 +100,13 @@ export default function Reflection() {
               My Ethical Stance on AI in Technical Writing
             </h2>
 
-            {/* TODO: Replace this placeholder text with your actual ethical stance */}
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                As generative AI tools like ChatGPT and Claude become increasingly prevalent
-                in professional settings, I have developed a thoughtful ethical framework
-                for their use in technical writing within my field of [YOUR FIELD].
+                As someone who has worked directly with machine learning and natural language
+                processing&mdash;having contributed to ML/NLP research focused on mental health
+                analysis&mdash;I bring a unique perspective to the ethics of AI in technical writing.
+                I understand both the remarkable capabilities of these tools and their fundamental
+                limitations.
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">
@@ -95,50 +114,89 @@ export default function Reflection() {
               </h3>
 
               <p>
-                I believe that AI can be a valuable tool when used [describe your position:
-                as a brainstorming aid, for editing, for initial drafts, etc.]. However,
-                I also recognize the importance of [describe limitations or concerns you have].
+                I believe generative AI tools like ChatGPT and Claude can be valuable aids in the
+                writing process when used thoughtfully and transparently. They excel at certain
+                tasks: brainstorming ideas, suggesting alternative phrasings, checking grammar, and
+                helping overcome writer&apos;s block. However, I firmly believe they should augment
+                human thinking, not replace it.
+              </p>
+
+              <p>
+                The key distinction I draw is between AI as a <em>tool</em> versus AI as an
+                <em>author</em>. Using AI to help refine your own ideas is similar to using a
+                thesaurus or asking a colleague for feedback. Having AI generate content that you
+                then claim as your original thought crosses an ethical line.
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">
-                Context of My Field
+                Context of Computer Science
               </h3>
 
               <p>
-                In [YOUR FIELD], technical writing often involves [describe specific
-                requirements of your field - e.g., accuracy, technical precision,
-                regulatory compliance, etc.]. This context shapes my ethical stance
-                because [explain how your field's requirements influence your views on AI].
+                In computer science, technical writing carries particular weight. Documentation
+                determines whether software is usable. Research papers must be precise enough for
+                others to reproduce results. Code comments guide future developers (including your
+                future self). The stakes for accuracy are high&mdash;incorrect technical documentation
+                can lead to security vulnerabilities, system failures, or wasted engineering hours.
+              </p>
+
+              <p>
+                This context shapes my ethical stance significantly. AI language models can
+                &quot;hallucinate&quot;&mdash;generating plausible-sounding but factually incorrect
+                information. In a field where a misplaced semicolon breaks programs and incorrect
+                API documentation wastes days of debugging, we cannot afford to blindly trust
+                AI-generated technical content. Human expertise and verification remain essential.
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">
                 Principles for Ethical AI Use
               </h3>
 
-              <ol className="list-decimal pl-6 space-y-2">
+              <ol className="list-decimal pl-6 space-y-3">
                 <li>
-                  <strong>Transparency:</strong> [Describe your stance on disclosing AI use]
+                  <strong>Transparency:</strong> If AI significantly contributed to a piece of
+                  writing, that should be disclosed. In academic and professional contexts, honesty
+                  about our tools and methods is foundational to trust.
                 </li>
                 <li>
-                  <strong>Human Oversight:</strong> [Describe the role of human review]
+                  <strong>Human Oversight:</strong> Every AI-assisted output should be critically
+                  reviewed by a human who understands the subject matter. The human remains
+                  responsible for accuracy and appropriateness.
                 </li>
                 <li>
-                  <strong>Original Thinking:</strong> [Describe how to maintain authentic voice]
+                  <strong>Preserving Original Thinking:</strong> The core ideas, arguments, and
+                  analysis should originate from human thought. AI can help express ideas more
+                  clearly, but shouldn&apos;t generate the ideas themselves for work claimed as
+                  one&apos;s own.
                 </li>
                 <li>
-                  <strong>Accuracy Verification:</strong> [Describe fact-checking approaches]
+                  <strong>Verification:</strong> Any factual claims, technical specifications, or
+                  code examples suggested by AI must be independently verified. This is
+                  non-negotiable in technical fields.
                 </li>
               </ol>
 
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">
-                Lived Experience Perspective
+                Perspective from My Background
               </h3>
 
               <p>
-                Drawing from my personal background and experiences, I understand that
-                [share how your lived experience informs your perspective on AI and
-                communication - this could relate to cultural background, accessibility,
-                language, or other personal factors].
+                Coming from Nepal and now studying in the United States, I&apos;ve navigated
+                multiple educational systems and communication styles. This experience taught me
+                that clear communication isn&apos;t just about language proficiency&mdash;it&apos;s
+                about understanding context, audience, and purpose. AI tools can help bridge language
+                gaps for non-native speakers like myself, which I see as a legitimate and even
+                democratizing use. However, relying on AI to think for us&mdash;rather than to help
+                us express our thinking&mdash;undermines the very purpose of education and
+                professional development.
+              </p>
+
+              <p>
+                My experience in ML research also gives me insight into how these models work. They
+                are statistical pattern matchers trained on existing text&mdash;they don&apos;t
+                truly &quot;understand&quot; the way humans do. They can produce remarkably
+                coherent text while being completely wrong about facts or logic. Understanding
+                this technical reality reinforces my belief that human judgment must remain central.
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mt-6">
@@ -146,10 +204,17 @@ export default function Reflection() {
               </h3>
 
               <p>
-                As AI technology continues to evolve, I am committed to [describe your
-                approach to staying current and adapting your ethical framework]. I believe
-                that responsible use of AI in technical writing requires [concluding thoughts
-                on balancing innovation with ethics].
+                AI writing tools will only become more powerful and prevalent. Rather than resist
+                this change, I believe we should develop clear ethical frameworks and best practices
+                for their use. In my future career&mdash;whether in software development, research,
+                or technical leadership&mdash;I am committed to using AI tools responsibly,
+                maintaining transparency about their use, and always ensuring that human expertise,
+                judgment, and accountability remain at the center of technical communication.
+              </p>
+
+              <p>
+                The goal isn&apos;t to avoid AI, but to use it in ways that enhance rather than
+                diminish our humanity, creativity, and integrity as communicators.
               </p>
             </div>
           </section>
@@ -165,7 +230,8 @@ export default function Reflection() {
                   Greatest Strength Developed
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  [Describe the skill you developed most in this course]
+                  Audience awareness&mdash;the ability to tailor complex technical information for
+                  different readers, from fellow researchers to non-technical stakeholders.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-4">
@@ -173,7 +239,8 @@ export default function Reflection() {
                   Area for Continued Growth
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  [Describe an area you want to continue improving]
+                  Visual communication&mdash;learning to better integrate diagrams, charts, and
+                  visual aids into technical documentation and presentations.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-4">
@@ -181,7 +248,8 @@ export default function Reflection() {
                   Most Valuable Assignment
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  [Describe which assignment taught you the most and why]
+                  The business report&mdash;it challenged me to research deeply, organize complex
+                  findings, and present actionable recommendations professionally.
                 </p>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-4">
@@ -189,29 +257,13 @@ export default function Reflection() {
                   AI Ethics Commitment
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  [Summarize your commitment to ethical AI use in one sentence]
+                  I will use AI as a tool to enhance my communication, never as a replacement for
+                  my own thinking, and always with transparency and verification.
                 </p>
               </div>
             </div>
           </section>
         </article>
-
-        {/* Instructions for completion */}
-        <div className="mt-12 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-xl p-6">
-          <h3 className="text-lg font-semibold text-yellow-800 dark:text-yellow-200 mb-2">
-            Instructions for Completing This Page
-          </h3>
-          <p className="text-yellow-700 dark:text-yellow-300 mb-4">
-            Replace all placeholder text in brackets [like this] with your own reflection. Consider:
-          </p>
-          <ul className="text-yellow-700 dark:text-yellow-300 space-y-1 list-disc list-inside text-sm">
-            <li>Your specific field of study and how technical writing applies to it</li>
-            <li>Concrete examples from your assignments that demonstrate growth</li>
-            <li>Your personal experiences that shape your perspective on AI</li>
-            <li>The unique requirements of your profession regarding documentation</li>
-            <li>How you plan to use these skills after graduation</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
