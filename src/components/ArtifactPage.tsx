@@ -7,6 +7,8 @@ interface ArtifactPageProps {
   description: string;
   pdfPath?: string;
   embedUrl?: string;
+  downloadPath?: string;
+  downloadLabel?: string;
   reflectionPoints?: string[];
 }
 
@@ -15,6 +17,8 @@ export default function ArtifactPage({
   description,
   pdfPath,
   embedUrl,
+  downloadPath,
+  downloadLabel = "Download File",
   reflectionPoints = [],
 }: ArtifactPageProps) {
   return (
@@ -66,6 +70,25 @@ export default function ArtifactPage({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                   Download PDF
+                </a>
+              </div>
+            </div>
+          ) : downloadPath ? (
+            <div className="h-[400px] flex items-center justify-center bg-gray-100 dark:bg-gray-700">
+              <div className="text-center">
+                <svg className="w-20 h-20 mx-auto mb-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                </svg>
+                <p className="text-gray-700 dark:text-gray-300 font-medium mb-4">This file is available for download</p>
+                <a
+                  href={downloadPath}
+                  download
+                  className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  {downloadLabel}
                 </a>
               </div>
             </div>
