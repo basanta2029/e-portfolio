@@ -4,14 +4,13 @@ export default function MemoPage() {
   return (
     <ArtifactPage
       title="Professional Memo"
-      description="A formal memorandum demonstrating professional workplace communication skills and proper memo formatting."
+      description="A workplace memo I wrote to practice clear, direct communication."
       pdfPath="/artifacts/memo.pdf"
-      // Or use embedUrl for Google Docs: embedUrl="https://docs.google.com/document/d/YOUR_DOC_ID/preview"
       reflectionPoints={[
-        "Learned proper memo formatting and structure for workplace communication",
-        "Developed skills in conveying information concisely and professionally",
-        "Practiced audience awareness by tailoring language to the intended readers",
-        "Applied principles of clarity and directness in professional writing",
+        "Learned that memos need to get to the point quickly since busy people skim them",
+        "Practiced using headers and bullet points to make information easy to find",
+        "Got better at writing for a specific audience instead of just writing generally",
+        "Understood why formatting matters just as much as the words themselves",
       ]}
     />
   );

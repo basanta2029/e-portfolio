@@ -4,14 +4,13 @@ export default function ReportPage() {
   return (
     <ArtifactPage
       title="Business Report"
-      description="A comprehensive business report demonstrating analytical thinking, research skills, and professional report writing."
+      description="A detailed report showing research, analysis, and recommendations."
       pdfPath="/artifacts/report.pdf"
-      // Or use embedUrl for Google Docs: embedUrl="https://docs.google.com/document/d/YOUR_DOC_ID/preview"
       reflectionPoints={[
-        "Conducted thorough research and synthesized information from multiple sources",
-        "Learned to organize complex information in a clear, logical structure",
-        "Developed skills in data analysis and presenting findings professionally",
-        "Applied visual elements effectively to enhance understanding",
+        "Learned how to organize a lot of information in a way that makes sense",
+        "Practiced supporting my points with actual data instead of just opinions",
+        "Got better at writing executive summaries that capture the main ideas",
+        "Understood that visuals like charts can explain things faster than paragraphs",
       ]}
     />
   );

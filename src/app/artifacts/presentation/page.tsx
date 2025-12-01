@@ -4,14 +4,13 @@ export default function PresentationPage() {
   return (
     <ArtifactPage
       title="Homework Presentation"
-      description="A professional presentation demonstrating visual communication skills and effective information delivery."
-      downloadPath="/artifacts/presentation.pptx"
-      downloadLabel="Download Presentation (.pptx)"
+      description="A professional presentation showing how I communicate complex ideas visually."
+      embedUrl="https://docs.google.com/presentation/d/1EiU4FRstR8ZwbVedPlzCYscRW8QyYdMAXoZKzVNvNfE/embed?start=false&loop=false&delayms=3000"
       reflectionPoints={[
-        "Created visually engaging slides that support the spoken message",
-        "Learned principles of effective slide design and visual hierarchy",
-        "Practiced distilling complex information into digestible visual formats",
-        "Developed presentation skills for professional communication",
+        "Built slides that actually support the message instead of overwhelming it",
+        "Learned that less text and more visuals keeps the audience engaged",
+        "Got better at breaking down technical topics into simple, clear points",
+        "Practiced speaking confidently while letting the slides complement my words",
       ]}
     />
   );
